@@ -1,0 +1,86 @@
+
+.main-wrapper {
+    background-color: rgb(153, 9,9);
+    padding: 0px 0px 40px 10px;
+}
+
+.header {
+    background-color: rgb(153, 9,9);
+    display: block;
+    padding: 20px 0px 0px 30px;
+    text-align: center;
+}
+
+.nav-sections {
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-section {
+    display: inline-block;
+    margin: auto;
+}
+.nav-list img {
+    width: 150px;
+    height: 100px;
+}
+.nav-list figure {
+    margin: 16px 40px 5px 40px;
+}
+.nav-list figcaption {
+    color: white;
+}
+.grid-container {
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+.grid-section-left {
+    background-color: rgb(125, 9, 9);
+}
+.left-list {
+    padding: 0px;
+    margin-top: 0px;
+}
+.left-section-links {
+    list-style: none;
+    line-height: 30px;
+    font-size: 18px;
+}
+.left-section-links a {
+    color: rgb(224, 87, 53);
+}
+.grid-section-center {
+    color: white;
+    font-size: 18px;
+}
+.right-section-header {
+    background-color: rgb(187, 187, 187);
+    margin: 2px 2px 2px;
+    padding: 3px 0px 3px;
+    text-align: center;
+    font-size: 18px;
+}
+.grid-section-right {
+    background-color: rgb(227, 221,221);
+    font-size: 18px;
+}
+.line {
+    margin: 0 auto;
+    width: 60%;
+    height: 2px;
+    background-color: white;
+    border-top: 1px solid rgb(187, 187, 187);
+    border-radius: 30%;
+}
+.main-footer {
+    background-color: rgb(233, 90, 18);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
